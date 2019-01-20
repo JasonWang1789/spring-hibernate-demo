@@ -12,6 +12,10 @@ import com.jwang.spring.springhibernate.entity.Author;
 import com.jwang.spring.springhibernate.entity.Book;
 import org.springframework.stereotype.Repository;
 
+/**
+ * @author Jason Wang
+ */
+
 @Repository
 public class BookDaoImpl implements BookDao {
 

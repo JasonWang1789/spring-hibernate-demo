@@ -8,6 +8,10 @@ import java.util.List;
 import com.jwang.spring.springhibernate.entity.Author;
 import org.springframework.stereotype.Repository;
 
+/**
+ * @author Jason Wang
+ */
+
 @Repository
 public class AuthorDaoImpl implements AuthorDao {
 

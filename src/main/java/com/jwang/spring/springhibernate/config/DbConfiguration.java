@@ -16,6 +16,10 @@ import org.springframework.orm.jpa.vendor.Database;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
+/**
+ * @author Jason Wang
+ */
+
 @Configuration
 @EnableTransactionManagement
 @ComponentScans(value = {@ComponentScan("com.jwang.spring.springhibernate.dao"),

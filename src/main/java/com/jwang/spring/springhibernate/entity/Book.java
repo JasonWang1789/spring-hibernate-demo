@@ -8,6 +8,10 @@ import lombok.Setter;
 import lombok.ToString;
 import lombok.experimental.Accessors;
 
+/**
+ * @author Jason Wang
+ */
+
 @Entity
 @Table(name = "book")
 @NoArgsConstructor

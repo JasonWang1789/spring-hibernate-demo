@@ -1,8 +1,6 @@
 package com.jwang.spring.springhibernate;
 
-import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Stream;
 
 import com.jwang.spring.springhibernate.config.DbConfiguration;
 import com.jwang.spring.springhibernate.entity.Author;
@@ -10,6 +8,10 @@ import com.jwang.spring.springhibernate.entity.Book;
 import com.jwang.spring.springhibernate.service.AuthorService;
 import com.jwang.spring.springhibernate.service.BookService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+/**
+ * @author Jason Wang
+ */
 
 public class TestUtil {
 
