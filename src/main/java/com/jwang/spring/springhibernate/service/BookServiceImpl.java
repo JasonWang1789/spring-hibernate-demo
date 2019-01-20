@@ -3,6 +3,7 @@ package com.jwang.spring.springhibernate.service;
 import java.util.List;
 
 import com.jwang.spring.springhibernate.dao.BookDao;
+import com.jwang.spring.springhibernate.entity.Author;
 import com.jwang.spring.springhibernate.entity.Book;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -22,5 +23,10 @@ public class BookServiceImpl implements BookService {
     @Transactional(readOnly = true)
     public List<Book> findAll() {
         return bookDao.findAll();
+    }
+
+    @Transactional(readOnly = true)
+    public List<Book> findBookByAuthor(Author author) {
+        return bookDao.findBookByAuthor(author);
     }
 }

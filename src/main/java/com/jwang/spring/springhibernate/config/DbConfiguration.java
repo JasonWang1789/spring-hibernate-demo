@@ -19,7 +19,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Configuration
 @EnableTransactionManagement
 @ComponentScans(value = {@ComponentScan("com.jwang.spring.springhibernate.dao"),
-        @ComponentScan("com.jwang.spring" + ".springhibernate.service")})
+        @ComponentScan("com.jwang.spring.springhibernate.service")})
 public class DbConfiguration {
 
     @Bean
